@@ -1,14 +1,14 @@
 /* 열공머신 service-worker — 오프라인 + 설치 지원
    주의: CSS/JS는 index.html 안에 인라인되어 있으므로
    별도 style.css / app.js 는 캐시하지 않습니다. */
-const CACHE = 'yeolgong-v5';
+const CACHE = 'yeolgong-v6';
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/icon-maskable-512.png'
+  './icon-192.png',
+  './icon-512.png',
+  './icon-maskable-512.png'
 ];
 
 // 설치: 앱 셸 캐싱
