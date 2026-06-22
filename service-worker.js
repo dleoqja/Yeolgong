@@ -1,7 +1,7 @@
 /* 열공머신 service-worker — 오프라인 + 설치 지원
    주의: CSS/JS는 index.html 안에 인라인되어 있으므로
    별도 style.css / app.js 는 캐시하지 않습니다. */
-const CACHE = 'yeolgong-v4';
+const CACHE = 'yeolgong-v5';
 const ASSETS = [
   './',
   './index.html',
